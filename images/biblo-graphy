@@ -1,0 +1,51 @@
+% Przykładowy format bibliografii, z przykładowymi typami żródeł.
+
+
+
+@Book{Nazwa_Do_Jakiej_Sie_Odwolasz,
+author = {Autor},
+title = {Tytuł},
+publisher = {Wydawnictwo},
+year = {Rok wydania},
+address = {Miejscowość wydania},
+langid = {polish},
+}
+
+@misc{wiki:Open_Neural_Network_Exchange,
+   author = "Wikipedia",
+   title = "{Open Neural Network Exchange} --- {W}ikipedia{,} The Free Encyclopedia",
+   year = "2021",
+   howpublished = {\url{http://en.wikipedia.org/w/index.php?title=Open\%20Neural\%20Network\%20Exchange&oldid=994701693}},
+   note = "[Online; accessed 12-January-2021]"
+ }
+
+% @misc{onnx, title={Open Neural Network Exchange}, url={https://onnx.ai/}, journal={ONNX}}
+% ONNX home web page
+
+
+@Manual{ARM06,
+title = {Ada Reference Manual {ISO}/{IEC} 8652:200y({E}) {E}d. 3},
+organization = {Ada Europe},
+year = {2006}
+}
+
+@Article{BuDo03,
+author = {Burns, A. and Dobbing, B.},
+title = {The {R}avenscar {P}rofile for Real--Time and High Integrity Systems},
+journal = {Cross{T}alk},
+year = {2003},
+volume = {16},
+number = {11},
+pages = {9--12}
+}
+
+
+@TechReport{BuDoVa03,
+author = {Burns, A. and Dobbing, B. and Vardanega, T.},
+title = {Guide for the Use of the Ada Ravenscar Profile in High Integrity Systems},
+institution = {University of York},
+year = {2003},
+number = {YCS-2003-348}
+}
+
+
